@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://pcvibtfetlc"]
+
+[ext_resource type="PackedScene" uid="uid://pbesfay12u6r" path="res://hand.tscn" id="1_37kl0"]
+
+[node name="Node3D" type="Node3D" unique_id=1225060698]
+
+[node name="hand" parent="." unique_id=1238558445 instance=ExtResource("1_37kl0")]
+transform = Transform3D(8.006, 0, 0, 0, 8.006, 0, 0, 0, 8.006, 0.04382932, 0.20155525, -0.42899978)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=2147360396]
+transform = Transform3D(-1, 1.4477557e-08, -8.621568e-08, -9.818543e-09, 0.96135366, 0.27531648, 8.686966e-08, 0.27531648, -0.96135366, 0.67, 1.672, -2.134)
